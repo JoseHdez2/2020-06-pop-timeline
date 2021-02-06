@@ -1,2 +1,3 @@
 # 2020-06-pop-timeline
-Created with CodeSandbox
+
+Timeline of pop events using react-calendar-timeline.
