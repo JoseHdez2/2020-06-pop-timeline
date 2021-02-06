@@ -1,7 +1,7 @@
 {
-  "name": "pop-timeline",
+  "name": "xqkyp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Timeline of pop events using react-calendar-timeline.",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
