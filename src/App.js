@@ -24,6 +24,8 @@ export default function App() {
       <Timeline
         groups={groups}
         items={items}
+        minZoom={365.24 * 86400 * 1000} // 1 year
+        maxZoom={365.24 * 86400 * 1000 * 20} // 20 years
         defaultTimeStart={moment().add(-10, "year")}
         defaultTimeEnd={moment()}
       />
