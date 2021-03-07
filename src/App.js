@@ -17,7 +17,9 @@ const groups = [
   { id: groupIds.msftConsoles, title: "Microsoft console" },
   { id: groupIds.segaConsoles, title: "Sega console" },
   { id: groupIds.marioGames, title: "Mario game" },
-  { id: groupIds.zeldaGames, title: "Zelda game" }
+  { id: groupIds.zeldaGames, title: "Zelda game" },
+  { id: groupIds.moviesStarWars, title: "Star Wars movies" },
+  { id: groupIds.moviesMarvel, title: "Marvel movies (MCU)" }
 ];
 
 export default function App() {

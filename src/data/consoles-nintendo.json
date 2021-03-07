@@ -1,0 +1,30 @@
+[
+  {
+    "title": "NES",
+    "start_time": "1985-10"
+  },
+  {
+    "title": "SNES",
+    "start_time": "1991-08"
+  },
+  {
+    "title": "N64",
+    "start_time": "1996-11"
+  },
+  {
+    "title": "GameCube",
+    "start_time": "2001-11"
+  },
+  {
+    "title": "Wii",
+    "start_time": "2006-11"
+  },
+  {
+    "title": "Wii U",
+    "start_time": "2012-11"
+  },
+  {
+    "title": "Nintendo Switch",
+    "start_time": "2017-03"
+  }
+]

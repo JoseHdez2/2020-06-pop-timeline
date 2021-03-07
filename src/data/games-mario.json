@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Super Mario Bros.",
+    "start_time": "1985"
+  },
+  {
+    "title": "Super Mario Bros. 2",
+    "start_time": "1988"
+  },
+  {
+    "title": "Super Mario Bros. 3",
+    "start_time": "1988-06"
+  },
+  {
+    "title": "World",
+    "start_time": "1990-11"
+  },
+  {
+    "title": "World 2: Yoshi's Island",
+    "start_time": "1995"
+  },
+  {
+    "title": "Super Mario 64",
+    "start_time": "1996"
+  },
+  {
+    "title": "Sunshine",
+    "start_time": "2002"
+  },
+  {
+    "title": "Galaxy",
+    "start_time": "2007"
+  },
+  {
+    "title": "Galaxy 2",
+    "start_time": "2010"
+  },
+  {
+    "title": "3D World",
+    "start_time": "2013"
+  },
+  {
+    "title": "Maker",
+    "start_time": "2015"
+  },
+  {
+    "title": "Odyssey",
+    "start_time": "2017-10-27"
+  },
+  {
+    "title": "Maker 2",
+    "start_time": "2019-06-28"
+  }
+]

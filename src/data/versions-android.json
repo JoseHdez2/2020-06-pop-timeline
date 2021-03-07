@@ -1,0 +1,66 @@
+[
+  {
+    "title": "1.5 Cupcake",
+    "start_time": "2009-04-27"
+  },
+  {
+    "title": "1.6 Donut",
+    "start_time": "2009-09-15"
+  },
+  {
+    "title": "2.0 Eclair",
+    "start_time": "2009-10-26"
+  },
+  {
+    "title": "2.2 Froyo",
+    "start_time": "2010-05-20"
+  },
+  {
+    "title": "2.3 Gingerbread",
+    "start_time": "2010-12-06"
+  },
+  {
+    "title": "3.0 Honeycomb",
+    "start_time": "2011-02-22"
+  },
+  {
+    "title": "4.0 Ice Cream Sandwich",
+    "start_time": "2011-10-18"
+  },
+  {
+    "title": "4.1 Jelly Bean",
+    "start_time": "2012-07-09"
+  },
+  {
+    "title": "4.4 KitKat",
+    "start_time": "2013-10-31"
+  },
+  {
+    "title": "5.0 Lollipop",
+    "start_time": "2014-11-12"
+  },
+  {
+    "title": "6.0 Marshmallow",
+    "start_time": "2015-10-05"
+  },
+  {
+    "title": "7.0 Nougat",
+    "start_time": "2016-09-03"
+  },
+  {
+    "title": "8.0 Oreo",
+    "start_time": "2017-08-21"
+  },
+  {
+    "title": "9.0 Pie",
+    "start_time": "2018-08-06"
+  },
+  {
+    "title": "10",
+    "start_time": "2019-09-03"
+  },
+  {
+    "title": "11",
+    "start_time": "2020-09-08"
+  }
+]

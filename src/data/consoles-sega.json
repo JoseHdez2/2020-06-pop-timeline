@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Sega Master System",
+    "start_time": "1986"
+  },
+  {
+    "title": "Sega Genesis",
+    "start_time": "1989-08"
+  },
+  {
+    "title": "Sega CD",
+    "start_time": "1992-10"
+  },
+  {
+    "title": "32X",
+    "start_time": "1994-11"
+  },
+  {
+    "title": "Sega Saturn",
+    "start_time": "1995-05"
+  },
+  {
+    "title": "Dreamcast",
+    "start_time": "1999-09",
+    "end_time": "2001"
+  }
+]

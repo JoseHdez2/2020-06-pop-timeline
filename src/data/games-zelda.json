@@ -1,0 +1,38 @@
+[
+  {
+    "title": "The Legend of Zelda",
+    "start_time": "1987-11"
+  },
+  {
+    "title": "Zelda II",
+    "start_time": "1988-11"
+  },
+  {
+    "title": "A Link to the Past",
+    "start_time": "1991-11"
+  },
+  {
+    "title": "Ocarina of Time",
+    "start_time": "1998-11"
+  },
+  {
+    "title": "Majora's Mask",
+    "start_time": "2000-04"
+  },
+  {
+    "title": "The Wind Waker",
+    "start_time": "2002-12"
+  },
+  {
+    "title": "Twilight Princess",
+    "start_time": "2006-11"
+  },
+  {
+    "title": "Skyward Sword",
+    "start_time": "2011-11"
+  },
+  {
+    "title": "Breath of the Wild",
+    "start_time": "2017-03"
+  }
+]

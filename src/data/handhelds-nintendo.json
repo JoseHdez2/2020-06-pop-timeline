@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Game Boy",
+    "start_time": "1989"
+  },
+  {
+    "title": "Game Boy Color",
+    "start_time": "1998"
+  },
+  {
+    "title": "Game Boy Advance",
+    "start_time": "2001"
+  },
+  {
+    "title": "Game Boy Advance SP",
+    "start_time": "2003"
+  },
+  {
+    "title": "Nintendo DS",
+    "start_time": "2004"
+  },
+  {
+    "title": "Nintendo DSi",
+    "start_time": "2009"
+  },
+  {
+    "title": "Nintendo 3DS",
+    "start_time": "2011"
+  },
+  {
+    "title": "Nintendo Switch",
+    "start_time": "2017-03"
+  }
+]

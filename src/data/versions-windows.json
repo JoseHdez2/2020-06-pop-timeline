@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Windows NT 3.1",
+    "start_time": "1993-07"
+  },
+  {
+    "title": "Windows NT 4.0",
+    "start_time": "1996-06"
+  },
+  {
+    "title": "Windows 2000",
+    "start_time": "2000-02"
+  },
+  {
+    "title": "Windows XP",
+    "start_time": "2001-08"
+  },
+  {
+    "title": "Windows 7",
+    "start_time": "2009-10"
+  },
+  {
+    "title": "Windows 8",
+    "start_time": "2012-10"
+  },
+  {
+    "title": "Windows 10",
+    "start_time": "2015-07"
+  }
+]
