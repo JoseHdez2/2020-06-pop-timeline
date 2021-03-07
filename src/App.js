@@ -6,27 +6,37 @@ import moment from "moment";
 import { groupIds, items } from "./items";
 
 const groups = [
-  { id: groupIds.windows, title: "Windows" },
   { id: groupIds.presidents, title: "U.S. President" },
+  { id: groupIds.windows, title: "Windows" },
+  { id: groupIds.androidVersions, title: "Android" },
   { id: groupIds.pkmnGames, title: "Pokemon game" },
   { id: groupIds.ntdoConsoles, title: "Nintendo console" },
   { id: groupIds.ntdoHandhelds, title: "Nintendo handheld" },
   { id: groupIds.sonyConsoles, title: "Sony console" },
   { id: groupIds.sonyHandhelds, title: "Sony handheld" },
   { id: groupIds.msftConsoles, title: "Microsoft console" },
-  { id: groupIds.marioGames, title: "Mario game" }
+  { id: groupIds.segaConsoles, title: "Sega console" },
+  { id: groupIds.marioGames, title: "Mario game" },
+  { id: groupIds.zeldaGames, title: "Zelda game" }
 ];
 
 export default function App() {
   return (
     <div>
-      Rendered by react!
+      <h2>Pop-culture Timeline</h2>
+      <span>
+        Sample timeline using{" "}
+        <a href={"https://www.npmjs.com/package/react-calendar-timeline"}>
+          react-calendar-timeline
+        </a>
+        .
+      </span>
       <Timeline
         groups={groups}
         items={items}
         minZoom={365.24 * 86400 * 1000} // 1 year
         maxZoom={365.24 * 86400 * 1000 * 20} // 20 years
-        defaultTimeStart={moment().add(-10, "year")}
+        defaultTimeStart={moment().add(-20, "year")}
         defaultTimeEnd={moment()}
       />
     </div>
