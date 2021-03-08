@@ -1,7 +1,6 @@
 import moment from "moment";
 import randomColor from "randomcolor";
 import gamesZelda from "./data/games-zelda.json";
-import moviesStarWars from "./data/movies-star-wars.json";
 import versionsWindows from "./data/versions-windows.json";
 import usPresidents from "./data/us-presidents.json";
 import gamesPokemon from "./data/games-pokemon.json";
@@ -13,13 +12,16 @@ import consolesSony from "./data/consoles-sony.json";
 import handheldsNtdo from "./data/handhelds-nintendo.json";
 import handheldsSony from "./data/handhelds-sony.json";
 import versionsAndroid from "./data/versions-android.json";
+import moviesStarWars from "./data/movies-star-wars.json";
+import moviesOscars from "./data/movies-oscars.json";
+import moviesMarvel from "./data/movies-marvel.json";
 
 let randomSeed = Math.floor(Math.random() * 1000);
 
 let id = 1;
 
 export const groupIds = {
-  presidents: 10,
+  usPresidents: 10,
   versionsWindows: 20,
   androidVersions: 21,
   ntdoConsoles: 30,
@@ -28,12 +30,31 @@ export const groupIds = {
   sonyHandhelds: 33,
   msftConsoles: 34,
   segaConsoles: 35,
-  pkmnGames: 40,
-  marioGames: 41,
+  gamesPokemon: 40,
+  gamesMario: 41,
   zeldaGames: 42,
-  moviesStarWars: 50,
-  moviesMarvel: 51
+  moviesOscars: 50,
+  moviesStarWars: 51,
+  moviesMarvel: 52
 };
+
+export const groups = [
+  { id: groupIds.usPresidents, title: "U.S. President" },
+  { id: groupIds.versionsWindows, title: "Windows" },
+  { id: groupIds.androidVersions, title: "Android" },
+  { id: groupIds.gamesPokemon, title: "Pokemon game" },
+  { id: groupIds.ntdoConsoles, title: "Nintendo console" },
+  { id: groupIds.ntdoHandhelds, title: "Nintendo handheld" },
+  { id: groupIds.sonyConsoles, title: "Sony console" },
+  { id: groupIds.sonyHandhelds, title: "Sony handheld" },
+  { id: groupIds.msftConsoles, title: "Microsoft console" },
+  { id: groupIds.segaConsoles, title: "Sega console" },
+  { id: groupIds.gamesMario, title: "Mario game" },
+  { id: groupIds.zeldaGames, title: "Zelda game" },
+  { id: groupIds.moviesOscars, title: "Best Picture" },
+  { id: groupIds.moviesStarWars, title: "Star Wars movies" },
+  { id: groupIds.moviesMarvel, title: "Marvel movies (MCU)" }
+];
 
 const parseEndTime = (el, i, ary) => {
   if (el.end_time) return moment(el.end_time);
@@ -85,7 +106,7 @@ export let items = [
     createItem(el, i, ary, groupIds.segaConsoles)
   ),
   ...gamesMario.map((el, i, ary) =>
-    createItem(el, i, ary, groupIds.marioGames)
+    createItem(el, i, ary, groupIds.gamesMario)
   ),
   ...versionsAndroid.map((el, i, ary) =>
     createItem(el, i, ary, groupIds.androidVersions)
@@ -95,5 +116,11 @@ export let items = [
   ),
   ...moviesStarWars.map((el, i, ary) =>
     createItem(el, i, ary, groupIds.moviesStarWars)
+  ),
+  ...moviesOscars.map((el, i, ary) =>
+    createItem(el, i, ary, groupIds.moviesOscars)
+  ),
+  ...moviesMarvel.map((el, i, ary) =>
+    createItem(el, i, ary, groupIds.moviesMarvel)
   )
 ];

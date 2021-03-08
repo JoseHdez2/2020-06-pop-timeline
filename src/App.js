@@ -3,24 +3,7 @@ import Timeline from "react-calendar-timeline";
 // make sure you include the timeline stylesheet or the timeline will not be styled
 import "react-calendar-timeline/lib/Timeline.css";
 import moment from "moment";
-import { groupIds, items } from "./items";
-
-const groups = [
-  { id: groupIds.presidents, title: "U.S. President" },
-  { id: groupIds.windows, title: "Windows" },
-  { id: groupIds.androidVersions, title: "Android" },
-  { id: groupIds.pkmnGames, title: "Pokemon game" },
-  { id: groupIds.ntdoConsoles, title: "Nintendo console" },
-  { id: groupIds.ntdoHandhelds, title: "Nintendo handheld" },
-  { id: groupIds.sonyConsoles, title: "Sony console" },
-  { id: groupIds.sonyHandhelds, title: "Sony handheld" },
-  { id: groupIds.msftConsoles, title: "Microsoft console" },
-  { id: groupIds.segaConsoles, title: "Sega console" },
-  { id: groupIds.marioGames, title: "Mario game" },
-  { id: groupIds.zeldaGames, title: "Zelda game" },
-  { id: groupIds.moviesStarWars, title: "Star Wars movies" },
-  { id: groupIds.moviesMarvel, title: "Marvel movies (MCU)" }
-];
+import { groupIds, groups, items } from "./items";
 
 export default function App() {
   return (
