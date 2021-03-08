@@ -5,6 +5,7 @@ import versionsWindows from "./data/versions-windows.json";
 import usPresidents from "./data/us-presidents.json";
 import gamesPokemon from "./data/games-pokemon.json";
 import gamesMario from "./data/games-mario.json";
+import gamesGta from "./data/games-gta.json";
 import consolesNtdo from "./data/consoles-nintendo.json";
 import consolesMsft from "./data/consoles-microsoft.json";
 import consolesSega from "./data/consoles-sega.json";
@@ -12,6 +13,7 @@ import consolesSony from "./data/consoles-sony.json";
 import handheldsNtdo from "./data/handhelds-nintendo.json";
 import handheldsSony from "./data/handhelds-sony.json";
 import versionsAndroid from "./data/versions-android.json";
+import versionsRpgMaker from "./data/versions-rpg-maker.json";
 import moviesStarWars from "./data/movies-star-wars.json";
 import moviesOscars from "./data/movies-oscars.json";
 import moviesMarvel from "./data/movies-marvel.json";
@@ -24,6 +26,7 @@ export const groupIds = {
   usPresidents: 10,
   versionsWindows: 20,
   androidVersions: 21,
+  versionsRpgMaker: 22,
   ntdoConsoles: 30,
   ntdoHandhelds: 31,
   sonyConsoles: 32,
@@ -38,10 +41,15 @@ export const groupIds = {
   moviesMarvel: 52
 };
 
+// fetch("./data/games-zelda.json")
+//   .then((response) => response.text())
+//   .then((json) => console.log(json));
+
 export const groups = [
   { id: groupIds.usPresidents, title: "U.S. President" },
   { id: groupIds.versionsWindows, title: "Windows" },
   { id: groupIds.androidVersions, title: "Android" },
+  { id: groupIds.versionsRpgMaker, title: "RPG Maker" },
   { id: groupIds.gamesPokemon, title: "Pokemon game" },
   { id: groupIds.ntdoConsoles, title: "Nintendo console" },
   { id: groupIds.ntdoHandhelds, title: "Nintendo handheld" },
@@ -51,6 +59,7 @@ export const groups = [
   { id: groupIds.segaConsoles, title: "Sega console" },
   { id: groupIds.gamesMario, title: "Mario game" },
   { id: groupIds.zeldaGames, title: "Zelda game" },
+  { id: groupIds.gamesGta, title: "GTA game" },
   { id: groupIds.moviesOscars, title: "Best Picture" },
   { id: groupIds.moviesStarWars, title: "Star Wars movies" },
   { id: groupIds.moviesMarvel, title: "Marvel movies (MCU)" }
@@ -77,9 +86,14 @@ const createItem = (el, i, ary, groupId) =>
     }
   });
 
+// export let items2 = files;
+
 export let items = [
   ...versionsWindows.map((el, i, ary) =>
     createItem(el, i, ary, groupIds.versionsWindows)
+  ),
+  ...versionsRpgMaker.map((el, i, ary) =>
+    createItem(el, i, ary, groupIds.versionsRpgMaker)
   ),
   ...usPresidents.map((el, i, ary) =>
     createItem(el, i, ary, groupIds.usPresidents)
@@ -108,6 +122,7 @@ export let items = [
   ...gamesMario.map((el, i, ary) =>
     createItem(el, i, ary, groupIds.gamesMario)
   ),
+  ...gamesGta.map((el, i, ary) => createItem(el, i, ary, groupIds.gamesGta)),
   ...versionsAndroid.map((el, i, ary) =>
     createItem(el, i, ary, groupIds.androidVersions)
   ),
